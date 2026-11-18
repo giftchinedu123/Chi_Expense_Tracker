@@ -1,0 +1,6 @@
+{
+  "name": "Expense Tracker",
+  "description": "A clean, monochrome personal expense and income tracker in Nigerian Naira with monthly analytics and CSV export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
