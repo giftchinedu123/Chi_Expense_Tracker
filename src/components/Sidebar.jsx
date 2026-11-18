@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import avatarPhoto from '../assets/images/gift_chinedu_avatar_1795014259298.jpg';
+import avatarPhoto from './Gift_pic.jpeg';
 
 const NAV_ITEMS = [
   { to: '/', label: 'Dashboard', iconClass: 'fa-solid fa-grip', end: true },
@@ -25,7 +25,6 @@ function ProfileAvatar({ sizeClass }) {
 
   return (
     <>
-      {/* replace with Gift's photo */}
       <img
         src={avatarPhoto}
         alt="Gift Chinedu"

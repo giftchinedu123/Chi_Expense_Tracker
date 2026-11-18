@@ -19,7 +19,7 @@ export default function MonthNavigator({
           onClick={onPrevMonth}
           aria-label="Previous month"
         >
-          <i className="fa-solid fa-chevron-left" aria-hidden="true" />
+         -
         </button>
 
         <span className="month-nav-label" aria-live="polite">
@@ -33,7 +33,7 @@ export default function MonthNavigator({
           disabled={isCurrentMonth}
           aria-label="Next month"
         >
-          <i className="fa-solid fa-chevron-right" aria-hidden="true" />
+         +
         </button>
       </div>
 

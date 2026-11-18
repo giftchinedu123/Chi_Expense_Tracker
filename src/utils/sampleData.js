@@ -32,7 +32,7 @@ export function generateSampleTransactions() {
   };
 
   const items = [
-    // Current month transactions
+
     {
       title: 'Monthly Salary',
       amount: 450000,

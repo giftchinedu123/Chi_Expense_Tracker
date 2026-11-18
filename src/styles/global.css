@@ -97,7 +97,7 @@ ul {
   font-variant-numeric: tabular-nums;
 }
 
-/* App Shell */
+
 .app-outer {
   min-height: 100dvh;
   width: 100%;
@@ -110,7 +110,7 @@ ul {
   padding-bottom: calc(124px + env(safe-area-inset-bottom));
 }
 
-/* Mobile Top Identity Bar */
+
 .mobile-identity-bar {
   display: flex;
   align-items: center;
@@ -126,7 +126,7 @@ ul {
   gap: 10px;
 }
 
-/* Avatars */
+
 .avatar-img,
 .avatar-fallback {
   border-radius: 50%;
@@ -161,12 +161,12 @@ ul {
   letter-spacing: -0.01em;
 }
 
-/* Desktop/Tablet Sidebar (hidden on mobile) */
+
 .sidebar {
   display: none;
 }
 
-/* Mobile Bottom Tab Bar */
+
 .mobile-tab-bar {
   position: fixed;
   left: 0;
@@ -205,7 +205,7 @@ ul {
   background-color: var(--surface-muted);
 }
 
-/* Main Content */
+
 .main-content {
   padding: 20px 16px 24px;
   min-width: 0;
@@ -218,7 +218,7 @@ ul {
   min-width: 0;
 }
 
-/* Headers & Hero Title */
+
 .dashboard-header,
 .page-header {
   display: flex;
@@ -258,7 +258,7 @@ ul {
   color: var(--text-secondary);
 }
 
-/* Buttons */
+
 .btn-primary,
 .btn-secondary {
   display: inline-flex;
@@ -352,7 +352,7 @@ ul {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
 
-/* Month Navigator */
+
 .month-nav {
   display: flex;
   align-items: center;
@@ -375,7 +375,7 @@ ul {
   letter-spacing: -0.01em;
 }
 
-/* Dashboard Grid */
+
 .dashboard-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -389,7 +389,7 @@ ul {
   min-width: 0;
 }
 
-/* Summary Cards */
+
 .summary-cards {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -442,7 +442,7 @@ ul {
   color: var(--text-muted);
 }
 
-/* Section Panels */
+
 .panel-section {
   display: flex;
   flex-direction: column;
@@ -555,7 +555,7 @@ ul {
   flex-shrink: 0;
 }
 
-/* Monochrome Transaction Indicator */
+
 .tx-indicator {
   display: inline-flex;
   align-items: center;
@@ -589,7 +589,7 @@ ul {
   color: var(--text-primary);
 }
 
-/* Chart */
+
 .chart-container {
   width: 100%;
   height: 240px;
@@ -698,7 +698,7 @@ ul {
   margin-top: 6px;
 }
 
-/* Filter Bar */
+
 .filter-bar {
   display: flex;
   flex-direction: column;
@@ -756,7 +756,7 @@ ul {
   width: 100%;
 }
 
-/* Inputs & Selects */
+
 .text-input,
 .select-input {
   width: 100%;
@@ -791,7 +791,7 @@ ul {
   margin-top: 2px;
 }
 
-/* Results Summary */
+
 .results-summary {
   display: flex;
   align-items: center;
@@ -807,7 +807,7 @@ ul {
   color: var(--text-primary);
 }
 
-/* Transactions List: Desktop Table vs Mobile Cards */
+
 .tx-table-wrap {
   display: none;
 }
@@ -945,7 +945,7 @@ ul {
   color: var(--text-primary);
 }
 
-/* Modals */
+
 .modal-backdrop {
   position: fixed;
   inset: 0;
@@ -1158,7 +1158,7 @@ ul {
   text-align: right;
 }
 
-/* Breakpoint: >= 540px */
+
 @media (min-width: 540px) {
   .form-row-two,
   .export-dates-row {
@@ -1170,7 +1170,7 @@ ul {
   }
 }
 
-/* Breakpoint: >= 768px (Tablet & Desktop Shell) */
+
 @media (min-width: 768px) {
   .app-outer {
     padding: 20px;
@@ -1345,7 +1345,7 @@ ul {
   }
 }
 
-/* Breakpoint: >= 1024px (Full Sidebar + Two-Column Dashboard) */
+
 @media (min-width: 1024px) {
   .app-outer {
     padding: 28px;
@@ -1394,7 +1394,7 @@ ul {
   }
 }
 
-/* Breakpoint: >= 1340px (3 Summary Cards in a Row inside Left Column) */
+
 @media (min-width: 1340px) {
   .summary-cards {
     grid-template-columns: 1.35fr 1fr 1fr;

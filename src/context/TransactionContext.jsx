@@ -19,7 +19,7 @@ export function TransactionProvider({ children }) {
     try {
       window.localStorage.setItem(STORAGE_KEY, JSON.stringify(transactions));
     } catch {
-      // Ignore storage quota or privacy mode errors gracefully
+    
     }
   }, [transactions]);
 
